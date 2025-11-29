@@ -1,0 +1,21 @@
+#blueprintFrame{
+    background-image: none;
+}
+
+#logoPgPrinc{
+    display: flex;
+    background-image: url(assets/signature.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24ex;
+    filter: drop-shadow(0 0 5px black);
+    margin-top: -2ex;
+    /* margin: auto; */
+    /* margin-right: 20px; */
+}
+
+@media (max-width:660px){
+    #logoPgPrinc{
+        margin-top: 0;
+    }
+}
