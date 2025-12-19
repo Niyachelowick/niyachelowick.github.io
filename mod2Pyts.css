@@ -69,7 +69,8 @@
     font-family: Sketchy;
     font-size: 35px;
 }
-.edoLabelDesc{
+.edoLabel-Desc{
+    /* display: contents; */
     margin-left: 30px;
 }
 
