@@ -5,6 +5,7 @@
 
 #blueprintFrame {
     background-image: none;
+    text-align: center;
 }
 
 #logoPgPrinc {
@@ -73,9 +74,20 @@
     /* display: contents; */
     margin-left: 30px;
 }
+#pjtCover{
+    height: 35vh;
+    filter: drop-shadow(0 0px 15px black);
+}
 
 @media (max-width:660px) {
     #logoPgPrinc {
         margin-top: 0;
+    }
+}
+
+@media (max-width:600px){
+    #pjtCover{
+        width: 90%;
+        height: auto;
     }
 }
