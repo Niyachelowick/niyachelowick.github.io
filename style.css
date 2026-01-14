@@ -137,6 +137,20 @@ a {
     filter: drop-shadow(0 0px 10px black);
 }
 
+#tp {
+    width: 80%;
+    border-radius: 5px;
+}
+
+#cA {
+    width: 50%;
+}
+
+#ardudeck {
+    width: 75%;
+    filter: drop-shadow(0 0 15px black);
+}
+
 /* media querys */
 @media(max-width:406px) {
     #logo {
@@ -270,7 +284,19 @@ a {
     .firma {
         background-size: cover;
         margin-top: -2.5%;
-        margin-left: 30%;
+        margin-left: 30%;#tp {
+    width: 80%;
+    border-radius: 5px;
+}
+
+#cA {
+    width: 50%;
+}
+
+#ardudeck {
+    width: 75%;
+    filter: drop-shadow(0 0 15px black);
+}
         height: 30%;
         width: auto;
     }
@@ -285,12 +311,17 @@ a {
     .firma {
         margin-left: 30%;
         background-size: cover;
-        width: 55ex;
-        height: 31.5ex;
+        /* width: 55ex;
+        height: 31.5ex; */
+        width: 48ex;
+        height: 27.5ex;
     }
 
     .coverText {
-        margin-top: 22ex;
+        margin-top: 15ex;
+    }
+    #tp,#cA,#ardudeck{
+        width:40%
     }
 }
 
@@ -378,16 +409,3 @@ p {
     margin: 15px;
 }
 
-#tp {
-    width: 80%;
-    border-radius: 5px;
-}
-
-#cA {
-    width: 50%;
-}
-
-#ardudeck {
-    width: 75%;
-    filter: drop-shadow(0 0 15px black);
-}
