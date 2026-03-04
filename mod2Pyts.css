@@ -79,6 +79,7 @@
     filter: drop-shadow(0 0px 15px black);
 }
 
+
 @media (max-width:660px) {
     #logoPgPrinc {
         margin-top: 0;
@@ -89,5 +90,12 @@
     #pjtCover{
         width: 90%;
         height: auto;
+    }
+}
+
+@media (min-width:1100px){
+    #pjtCover{
+        height: 65%;
+        width: auto;
     }
 }

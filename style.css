@@ -151,7 +151,7 @@ a {
     filter: drop-shadow(0 0 15px black);
 }
 
-/* media querys */
+/* media queries */
 @media(max-width:406px) {
     #logo {
         width: 15%;
@@ -318,7 +318,7 @@ a {
     }
 
     .coverText {
-        margin-top: 15ex;
+        margin-top: 17ex;
     }
     #tp,#cA,#ardudeck{
         width:40%
