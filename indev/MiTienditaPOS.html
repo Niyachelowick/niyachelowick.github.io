@@ -2,64 +2,71 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título/nombre del proyecto -->
-    <title>MiTiendita PoS</title>
-    <!-- --------------------------- -->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/mod2Pyts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título/nombre del proyecto -->
+  <title>MiTiendita PoS</title>
+  <!-- --------------------------- -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/mod2Pyts.css">
 </head>
 
 <body>
-    <!-- la navBar (obviamente) -->
-    <div class="navBar">
-        <a href="/index.html" id="logoPgPrinc"></a>
-        <a href="/index.html" class="navBarButons"> Proyectos</a>
-        <a href="/en-espera.html" class="navBarButons"> Syntax && Spells</a>
-        <a href="/en-espera.html" class="navBarButons"> +Sobre mí.</a>
-        <a href="/financiaMe.html" class="navBarButons"> Financia me.</a>
-        <a href="/charlemos.html" class="navBarButons">¡Charlemos!</a>
+  <!-- la navBar (obviamente) -->
+  <div class="navBar">
+    <a href="/index.html" id="logoPgPrinc"></a>
+    <a href="/index.html" class="navBarButons"> Proyectos</a>
+    <a href="/en-espera.html" class="navBarButons"> Syntax && Spells</a>
+    <a href="/en-espera.html" class="navBarButons"> +Sobre mí.</a>
+    <a href="/financiaMe.html" class="navBarButons"> Financia me.</a>
+    <a href="/charlemos.html" class="navBarButons">¡Charlemos!</a>
+  </div>
+  <!-- aquí termina la NavBar -->
+  <div id="secureBar"></div>
+  <!-- El cover -->
+  <div class="blockContainer">
+    <div class="box box-cover">
+      <div id="blueprintFrame">
+        <H1>MiTiendita PoS</H1>
+        <img src="/assets/escánerBLE.png" alt="escáner códigos de barras" id="pjtCover">
+      </div>
     </div>
-    <!-- aquí termina la NavBar -->
+  </div>
+  <!-- le seguimos con el cuerpo del proyecto -->
+  <div class="blockContainer">
     <div id="secureBar"></div>
-    <!-- El cover -->
-    <div class="blockContainer">
-        <div class="box box-cover">
-            <div id="blueprintFrame">
-                <H1>MiTiendita PoS</H1>
-                <img src="/assets/scannerMiTPoS.png" alt="escáner códigos de barras" id="pjtCover">
-            </div>
-        </div>
-    </div>
-    <!-- le seguimos con el cuerpo del proyecto -->
-    <div class="blockContainer">
-        <div id="secureBar"></div>
-        <div class="fichaDeDatos">
-            <!-- aquí van los datos básicos del proyecto -->
-            <div class="descripcion">
-                <p>Un punto de venta pensado específicamente para tiendas de abarrotes, en las que el espacio para tener
-                    un punto de venta convencional es poco.
-                </p>
-                <p>Consta de una app Movil y periféricos Bluetooth compactos.</p>
-            </div>
-            <div class="estado"><!--contiene al indicador de estado y su texto.-->
-                <div class="indEdo edoInDev"></div>
-                <p class="edoLabel">Estado= En desarrollo.</p>
-                <p class="edoLabel edoLabel-Desc">⏸(A la espera de capital para manufactura.)</p>
-                <p class="edoLabel edoLabel-Desc">
-                    ⏭ Siguiente paso: realizar circuito impreso e imprimir carcasas.
-                </p>
-            </div>
+    <div class="fichaDeDatos">
+      <!-- aquí van los datos básicos del proyecto -->
+      <div class="descripcion">
+        <p>Un punto de venta pensado específicamente para tiendas de abarrotes, en las que el espacio para tener
+          un punto de venta convencional es poco.
+        </p>
+        <p>Consta de una app Movil y periféricos Bluetooth compactos.</p>
+      </div>
+      <div class="estado"><!--contiene al indicador de estado y su texto.-->
+        <div class="indEdo edoInDev"></div>
+        <p class="edoLabel">Estado= 1er prototipo terminado.</p>
+        <p class="edoLabel edoLabel-Desc">⏸(Buscando Tienda para implementación experimental.)</p>
+        <p class="edoLabel edoLabel-Desc">
+          ⏭ Siguiente paso: Implementar el prototipo de forma experimental y refinar en base a anomalías e incidentes
+          presentados.
+        </p>
+      </div>
 
-        </div>
     </div>
-    <!-- aquí terminan los datos básicos del proyecto -->
+  </div>
+  <!-- aquí terminan los datos básicos del proyecto -->
+  </div>
+  <div class="blockContainer" id="pyt">
+    <div id="secureBar"></div>
+    <div class="cardContainer" id="pyt">
+      <a href="https://github.com/Niyachelowick/MiTienditaPoS" class="box boxProject" id="imp">
+        <h3>Repo del proyecto</h3>
+        <img src="/assets/GitHub_Invertocat_Black.png" alt="Repositorio en GitHub" id="tp">
+      </a>
     </div>
-    <div class="blockContainer" id="pyt">
-        <div id="secureBar"></div>
-        <!-- <div class="cardContainer" id="pyt"></div> -->
-    </div>
+
+  </div>
 
 </body>
 
