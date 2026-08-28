@@ -2,69 +2,72 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título/nombre del proyecto -->
-    <title>arduBox</title>
-    <!-- --------------------------- -->
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/mod2Pyts.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título/nombre del proyecto -->
+  <title>arduBox</title>
+  <!-- --------------------------- -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/mod2Pyts.css">
 </head>
 
 <body>
-    <!-- la navBar (obviamente) -->
-    <div class="navBar">
-        <a href="/index.html" id="logoPgPrinc"></a>
-        <a href="/index.html" class="navBarButons"> Proyectos</a>
-        <a href="/en-espera.html" class="navBarButons"> Syntax && Spells</a>
-        <a href="/en-espera.html" class="navBarButons"> +Sobre mí.</a>
-        <a href="/financiaMe.html" class="navBarButons"> Financia me.</a>
-        <a href="/charlemos.html" class="navBarButons">¡Charlemos!</a>
+  <!-- la navBar (obviamente) -->
+  <div class="navBar">
+    <a href="/index.html" id="logoPgPrinc"></a>
+    <a href="/index.html" class="navBarButons"> Proyectos</a>
+    <a href="/en-espera.html" class="navBarButons"> Syntax && Spells</a>
+    <a href="/en-espera.html" class="navBarButons"> +Sobre mí.</a>
+    <a href="/financiaMe.html" class="navBarButons"> Financia me.</a>
+    <a href="/charlemos.html" class="navBarButons">¡Charlemos!</a>
+  </div>
+  <!-- aquí termina la NavBar -->
+  <div id="secureBar"></div>
+  <!-- El cover -->
+  <div class="blockContainer">
+    <div class="box box-cover">
+      <div id="blueprintFrame">
+        <!-- Nuevamente, el título, pero sobre el cover. -->
+        <H1>arduBox</H1>
+        <img src="/assets/ardudeck.png" alt="" id="pjtCover">
+      </div>
     </div>
-    <!-- aquí termina la NavBar -->
+  </div>
+  <!-- le seguimos con el cuerpo del proyecto -->
+  <div class="blockContainer">
     <div id="secureBar"></div>
-    <!-- El cover -->
-    <div class="blockContainer">
-        <div class="box box-cover">
-            <div id="blueprintFrame">
-                <!-- Nuevamente, el título, pero sobre el cover. -->
-                <H1>arduBox</H1>
-                <img src="/assets/ardudeck.png" alt="" id="pjtCover">
-            </div>
-        </div>
+    <div class="fichaDeDatos">
+      <!-- aquí van los datos básicos del proyecto -->
+      <div class="descripcion">
+        <p>Una alternativa a la TourBox pero basada en Arduino, por lo tanto, menos caro y más personalizable.
+        </p>
+      </div>
+      <div class="estado"><!--contiene al indicador de estado y su texto.-->
+        <div class="indEdo edoInDev"></div>
+        <p class="edoLabel">Estado= En desarrollo.</p>
+      </div>
+      <p class="edoLabel edoLabel-Desc">⏸(En pausa por baja prioridad)</p>
+      <!-- <div></div> -->
+      <p class="edoLabel edoLabel-Desc">
+        ⏭ Siguiente paso: Diseñar PCB y carcasa.
+      </p>
     </div>
-    <!-- le seguimos con el cuerpo del proyecto -->
-    <div class="blockContainer">
-        <div id="secureBar"></div>
-        <div class="fichaDeDatos">
-            <!-- aquí van los datos básicos del proyecto -->
-            <div class="descripcion">
-                <p>Una alternativa a la TourBox pero basada en Arduino, por lo tanto, menos caro y más personalizable.
-                </p>
-            </div>
-            <div class="estado"><!--contiene al indicador de estado y su texto.-->
-                <div class="indEdo edoInDev"></div>
-                <p class="edoLabel">Estado= En desarrollo.</p>
-            </div>
-            <p class="edoLabel edoLabel-Desc">⏸(En pausa por baja prioridad)</p>
-            <!-- <div></div> -->
-            <p class="edoLabel edoLabel-Desc">
-                ⏭ Siguiente paso: Diseñar PCB y carcasa.
-            </p>
-        </div>
-    </div>
-    <!-- aquí terminan los datos básicos del proyecto -->
-    </div>
-    <div class="blockContainer" id="pyt">
-        <div id="secureBar"></div>
-        <div class="cardContainer" id="pyt">
+  </div>
+  <!-- aquí terminan los datos básicos del proyecto -->
+  </div>
+  <div class="blockContainer" id="pyt">
+    <div id="secureBar"></div>
+    <div class="cardContainer" id="pyt">
+      <!-- 
             <a class="box boxProject" id="imp" href="/en-espera.html">
                 <p>
                     DevLogs
                 </p>
             </a>
-        </div>
+
+-->
     </div>
+  </div>
 
 </body>
 
